@@ -5,7 +5,7 @@ library(reshape)
 # SKIP BELOW FOR COURSERA QUESTIONS
 # ---------------------------------
 origDir <- getwd()
-if(!file.exists("data")) dir.create("data/tempraw", recursive = TRUE)
+if(!file.exists("data")) dir.create("data/extractedRaw", recursive = TRUE)
 setwd("./data")
 
 # Download file
