@@ -48,7 +48,7 @@ out <- out[, which(sapply(colnames(out), function(x)
                 x == "activity"
               ))]
 
-# PART 3: Descriptive activity nmes
+# PART 3: Descriptive activity names
 out$activity <- sapply(out$activity, function(x) 
   activity_labels[activity_labels[,1] == x,2])
 out$subject <- as.factor(out$subject)
