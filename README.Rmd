@@ -1,0 +1,32 @@
+---
+title: "README"
+author: "equinaut"
+date: "December 22, 2015"
+output: html_document
+---
+
+# Introduction
+
+This repository contains the files needed to fulfill Coursera's Getting and Cleaning Data project requirements.
+
+# Files
+
+- **README.Rmd**
+
+- **CodeBook.Rmd** contains a description of the features and transformations.
+
+- **dataSummary.txt** is the outputted "tidy" file.
+
+- `run_analysis.R` downloads the raw data, generates the summary ("tidy") dataset as well as the merged dataset between the training and test files.
+
+# Instructions: `run_analyis.R` 
+
+Before running this script ensure that you are in the desired working directory. 
+
+1. Run the script
+
+2. The zip file will be downloaded into ./data
+
+3. The extracted raw data will be available in ./data/extractedRaw
+
+4. The merged dataset and summary ("tidy") dataset will be available in your working directory.
